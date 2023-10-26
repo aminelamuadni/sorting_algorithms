@@ -41,5 +41,10 @@ void heap_sort(int *array, size_t size);
 int max_value(int *array, size_t size);
 void counting_sort_radix(int *array, size_t size, int position);
 void radix_sort(int *array, size_t size);
+void bitonic_swap(int arr[], int a, int b, int dir);
+void bitonic_merge(int arr[], int start, int count, int dir);
+void bitonic_sort_recursion(int arr[], int start, int count, int dir,
+							int total_size);
+void bitonic_sort(int *array, size_t size);
 
 #endif /* SORT_H */
