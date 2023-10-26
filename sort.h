@@ -29,6 +29,11 @@ void lomuto_quick_sort(int *array, size_t size, int lo, int hi);
 void quick_sort(int *array, size_t size);
 void shell_sort(int *array, size_t size);
 void cocktail_sort_list(listint_t **list);
+int find_max(int *array, size_t size);
+int *initialize_counting_array(int max, int *array, size_t size);
+void print_counting_array(int *counting_array, int max);
 void counting_sort(int *array, size_t size);
+void merge(int *array, int *l, int *r, size_t size);
+void merge_sort(int *array, size_t size);
 
 #endif /* SORT_H */
